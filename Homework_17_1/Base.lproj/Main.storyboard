@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Homework_17_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="U13-el-ZDA">
+                                <rect key="frame" x="49" y="89" width="277" height="227"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6o9-nl-WT7" userLabel="Stack View 1">
+                                        <rect key="frame" x="0.0" y="0.0" width="277" height="31"/>
+                                        <subviews>
+                                            <switch opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Aqi-IT-WSx" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Xr0-V6-HjG" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="57" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tY0-8E-TPr" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="114" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rYt-3Q-bzW" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="171" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="439-Yc-SXC" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="228" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6v5-FS-PzR" userLabel="Stack View 2">
+                                        <rect key="frame" x="0.0" y="49" width="277" height="31"/>
+                                        <subviews>
+                                            <switch opaque="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XNj-Q4-FET" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="7" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rCI-fb-kWb" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="57" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eMY-KU-z56" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="114" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="9" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7dx-T5-bAP" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="171" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="10" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="u4Q-Ti-MLI" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="228" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="rEo-PZ-sWu" userLabel="Stack View 3">
+                                        <rect key="frame" x="0.0" y="98" width="277" height="31"/>
+                                        <subviews>
+                                            <switch opaque="NO" tag="11" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a8M-6D-pHY" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="12" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tKR-lJ-uWl" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="57" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="13" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="U5y-cr-axY" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="114" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="14" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5S8-Bm-x0l" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="171" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="15" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ReT-Hk-viq" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="228" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="xwa-Kd-SrQ" userLabel="Stack View 4">
+                                        <rect key="frame" x="0.0" y="147" width="277" height="31"/>
+                                        <subviews>
+                                            <switch opaque="NO" tag="16" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Jd3-6w-FUo" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="17" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="djS-Td-Bb0" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="57" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="18" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3qQ-7Q-F9v" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="114" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="19" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9dR-7b-j07" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="171" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="20" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HAU-ov-NVU" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="228" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="LSl-cW-XrA" userLabel="Stack View 5">
+                                        <rect key="frame" x="0.0" y="196" width="277" height="31"/>
+                                        <subviews>
+                                            <switch opaque="NO" tag="21" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gmK-y2-1sG" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="22" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SuN-WR-eVn" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="57" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="23" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oBX-nR-u0S" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="114" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="24" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sh2-et-aza" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="171" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                            <switch opaque="NO" tag="25" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zeC-uB-cSq" customClass="MySwitchView" customModule="Homework_17_1" customModuleProvider="target">
+                                                <rect key="frame" x="228" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="U13-el-ZDA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6vj-MV-SfO"/>
+                            <constraint firstItem="U13-el-ZDA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="fky-8i-FJl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outletCollection property="switchLine1" destination="Aqi-IT-WSx" collectionClass="NSMutableArray" id="GrP-5D-7Kr"/>
+                        <outletCollection property="switchLine1" destination="Xr0-V6-HjG" collectionClass="NSMutableArray" id="k0c-Ah-lWE"/>
+                        <outletCollection property="switchLine1" destination="tY0-8E-TPr" collectionClass="NSMutableArray" id="eaK-B6-kwG"/>
+                        <outletCollection property="switchLine2" destination="XNj-Q4-FET" collectionClass="NSMutableArray" id="lSx-qd-ufo"/>
+                        <outletCollection property="switchLine2" destination="rCI-fb-kWb" collectionClass="NSMutableArray" id="roo-bv-i6M"/>
+                        <outletCollection property="switchLine2" destination="eMY-KU-z56" collectionClass="NSMutableArray" id="hqP-XT-3Ib"/>
+                        <outletCollection property="switchLine2" destination="7dx-T5-bAP" collectionClass="NSMutableArray" id="fDf-G3-Vxf"/>
+                        <outletCollection property="switchLine2" destination="u4Q-Ti-MLI" collectionClass="NSMutableArray" id="i9d-uT-Rzf"/>
+                        <outletCollection property="switchLine3" destination="a8M-6D-pHY" collectionClass="NSMutableArray" id="va6-Vx-EAl"/>
+                        <outletCollection property="switchLine3" destination="tKR-lJ-uWl" collectionClass="NSMutableArray" id="KAQ-1o-S2g"/>
+                        <outletCollection property="switchLine3" destination="U5y-cr-axY" collectionClass="NSMutableArray" id="y7b-W2-9sY"/>
+                        <outletCollection property="switchLine3" destination="5S8-Bm-x0l" collectionClass="NSMutableArray" id="aFK-v8-dy4"/>
+                        <outletCollection property="switchLine3" destination="ReT-Hk-viq" collectionClass="NSMutableArray" id="uiq-1Y-4fp"/>
+                        <outletCollection property="switchLine4" destination="Jd3-6w-FUo" collectionClass="NSMutableArray" id="kus-gM-Dhx"/>
+                        <outletCollection property="switchLine4" destination="djS-Td-Bb0" collectionClass="NSMutableArray" id="kYr-4T-IjQ"/>
+                        <outletCollection property="switchLine4" destination="3qQ-7Q-F9v" collectionClass="NSMutableArray" id="ixT-9i-Zjw"/>
+                        <outletCollection property="switchLine4" destination="9dR-7b-j07" collectionClass="NSMutableArray" id="9yL-bK-Tmy"/>
+                        <outletCollection property="switchLine4" destination="HAU-ov-NVU" collectionClass="NSMutableArray" id="xaf-l6-a0Y"/>
+                        <outletCollection property="switchLine5" destination="gmK-y2-1sG" collectionClass="NSMutableArray" id="uig-eL-6Vj"/>
+                        <outletCollection property="switchLine5" destination="SuN-WR-eVn" collectionClass="NSMutableArray" id="ALg-Gx-9HV"/>
+                        <outletCollection property="switchLine5" destination="oBX-nR-u0S" collectionClass="NSMutableArray" id="cA6-Kn-Lkc"/>
+                        <outletCollection property="switchLine5" destination="sh2-et-aza" collectionClass="NSMutableArray" id="gvX-KS-TVj"/>
+                        <outletCollection property="switchLine5" destination="zeC-uB-cSq" collectionClass="NSMutableArray" id="fet-78-kVh"/>
+                        <outletCollection property="switchLine1" destination="rYt-3Q-bzW" collectionClass="NSMutableArray" id="SJk-9h-WTh"/>
+                        <outletCollection property="switchLine1" destination="439-Yc-SXC" collectionClass="NSMutableArray" id="vuS-xk-42l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="30" y="70"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
